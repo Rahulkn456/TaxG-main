@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import "./Clock.css";
 const Clock = () => {
   const [currentTime, SetCurrentTime] = useState(new Date());
 
@@ -22,8 +22,8 @@ const Clock = () => {
 
   return (
     <div>
-      <span>{formatTime(currentTime)}</span>
-      <span>{formatDate(currentTime)}</span>
+      <span className="time">{formatTime(currentTime)}</span>
+      <span className="day">{formatDate(currentTime)}</span>
     </div>
   );
 };

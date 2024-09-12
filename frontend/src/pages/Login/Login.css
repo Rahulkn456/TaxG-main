@@ -7,7 +7,7 @@
 }
 
 .login-form {
-  background-color: #C4DAD2;
+  background-color: #c4dad2;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -18,7 +18,7 @@
 .login-form h2 {
   margin-bottom: 20px;
   text-align: center;
-  background-color: #C4DAD2;
+  background-color: #c4dad2;
 }
 
 .form-group {
@@ -41,14 +41,18 @@
 button {
   width: 100%;
   padding: 10px;
-  background-color: #6A9C89;
+  background-color: #6a9c89;
   border: none;
   border-radius: 4px;
-  color: #C4DAD2;
+  color: #c4dad2;
   font-size: 16px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #C4DAD2;
+  background-color: #0000;
+}
+
+h1 {
+  text-align: center;
 }
