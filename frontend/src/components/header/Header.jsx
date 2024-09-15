@@ -3,6 +3,7 @@ import React from "react";
 import Contact from "../../pages/contact/Contact";
 import Resources from "../../pages/resources/resources";*/
 import Clock from "../Clock/Clock";
+import { Link, Outlet } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
@@ -33,12 +34,14 @@ const Header = () => {
       <nav className="navbar">
         <div className="navdiv">
           <Clock />
-          <ul>
-            <li>Home</li>
-            <li>Notice</li>
-            <li>Resources</li>
-            <li>Client</li>
-          </ul>
+          <Link to="home">Home</Link>
+          <Link to="client">Client</Link>
+          <Link to="about">About</Link>
+          <Link to="contact">Contact</Link>
+          <Link to="resources">Resources</Link>
+          <Link to="login">Login</Link>
+          <Link to="signUp">SignUp</Link>
+          <Outlet />
         </div>
       </nav>
     </div>

@@ -49,9 +49,9 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+/* button:hover {
   background-color: #0000;
-}
+} */
 
 h1 {
   text-align: center;
