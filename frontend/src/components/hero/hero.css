@@ -1,27 +1,46 @@
-.hero-container {
-  padding: 10px;
-  background-image: url(https://topazconsultancy.in/images/consultancy.jpg);
+.hero-container-bg-image {
+  --bg-image: url(https://topazconsultancy.in/images/consultancy.jpg);
+  --bg-image-opacity: 0.1;
+  display: grid;
+  text-align: center;
+  position: relative;
+  isolation: isolate;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+}
+
+.hero-container-bg-image ::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  opacity: var(--bg-image-opacity);
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-position: center;
 }
 
 .first-title {
-  text-align: left;
-  font-size: 40px;
-  font-weight: 600;
+  font-size: 100px;
+  padding: 30px;
 }
 
 .phrase {
-  color: blue;
-  font-weight: bold;
-  font-size: 24px;
-}
-
-p {
-  font-size: 20px;
+  font-size: 60px;
+  font-weight: bolder;
+  color: #0056b3;
 }
 
 .hero-btn {
-  padding-top: 20px;
+  background-color: #0056b3;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 300;
 }

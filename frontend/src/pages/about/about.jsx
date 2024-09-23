@@ -1,12 +1,13 @@
 import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/footer";
+import "./About.css";
 
 const About = () => {
   return (
     <div>
       <Header />
-      <div>
+      <div className="about-container">
         <h2>About Us</h2>
         <p>
           Welcome to Jagadish and Co Consultancy we specialize in providing

@@ -13,11 +13,21 @@ const footer = () => {
       <div class="footer">
         <h3>Links</h3>
 
-        <Link to="about">About Us</Link>
-        <Link to="client">Client</Link>
-        <Link to="notice">Notice</Link>
-        <Link to="feedback">Feedback</Link>
-        <Link to="service">Service</Link>
+        <Link to="about" className="a-tag">
+          About Us
+        </Link>
+        <Link to="client" className="a-tag">
+          Client
+        </Link>
+        <Link to="notice" className="a-tag">
+          Notice
+        </Link>
+        <Link to="feedback" className="a-tag">
+          Feedback
+        </Link>
+        <Link to="service" className="a-tag">
+          Service
+        </Link>
         <Outlet />
       </div>
       <div class="footer1">
