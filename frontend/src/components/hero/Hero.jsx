@@ -13,6 +13,7 @@ const Hero = () => {
           synergies
         </p>
         <button className="hero-btn">Schedule a call</button>
+        <button className="hero-btn">Call Back</button>
       </>
     </div>
   );
