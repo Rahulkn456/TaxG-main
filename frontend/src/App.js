@@ -11,6 +11,7 @@ import Notice from "./pages/notice/Notice";
 import "./App.css";
 import NotFound from "./pages/notFound/NotFound";
 import Feedback from "./components/Feedback/Feedback";
+import Service from "./components/Service/Service";
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
           <Route path="/signUp" element={<SignUp />} />
           <Route path="/notice" element={<Notice />} />
           <Route path="/feedback" element={<Feedback />} />
+          <Route path="/service" element={<Service />} />
+
         </Routes>
       </BrowserRouter>
     </div>

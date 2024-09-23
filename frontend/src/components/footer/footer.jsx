@@ -17,6 +17,7 @@ const footer = () => {
         <Link to="client">Client</Link>
         <Link to="notice">Notice</Link>
         <Link to="feedback">Feedback</Link>
+        <Link to="service">Service</Link>
         <Outlet />
       </div>
       <div class="footer1">
