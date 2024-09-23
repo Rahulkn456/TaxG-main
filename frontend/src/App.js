@@ -10,6 +10,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Notice from "./pages/notice/Notice";
 import "./App.css";
 import NotFound from "./pages/notFound/NotFound";
+import Feedback from "./components/Feedback/Feedback";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signUp" element={<SignUp />} />
           <Route path="/notice" element={<Notice />} />
+          <Route path="/feedback" element={<Feedback />} />
         </Routes>
       </BrowserRouter>
     </div>

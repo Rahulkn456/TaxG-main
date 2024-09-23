@@ -3,7 +3,11 @@ import React from "react";
 const Client = () => {
   return (
     <div>
-      <h2>client</h2>
+      <table>
+        <tr>name</tr>
+        <tr>Address</tr>
+        <tr>Mail Address</tr>
+      </table>
     </div>
   );
 };

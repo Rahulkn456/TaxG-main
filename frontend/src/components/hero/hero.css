@@ -1,0 +1,27 @@
+.hero-container {
+  padding: 10px;
+  background-image: url(https://topazconsultancy.in/images/consultancy.jpg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-title {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.phrase {
+  color: blue;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.hero-btn {
+  padding-top: 20px;
+}
