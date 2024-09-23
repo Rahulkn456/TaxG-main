@@ -10,6 +10,9 @@
   padding-right: 15px;
 }
 
+.nav-link-tag {
+  color: black;
+}
 .navdiv {
   display: flex;
   align-items: center;

@@ -34,6 +34,7 @@ const Header = () => {
       <nav className="navbar">
         <div className="navdiv">
           <Clock />
+<<<<<<< HEAD
           <Link to="home">Home</Link>
           <Link to="client">Client</Link>
           <Link to="about">About</Link>
@@ -41,6 +42,29 @@ const Header = () => {
           <Link to="reference">Reference</Link>
           <Link to="login">Login</Link>
           <Link to="signUp">SignUp</Link>
+=======
+          <Link to="home" className="nav-link-tag">
+            Home
+          </Link>
+          <Link to="client" className="nav-link-tag">
+            Client
+          </Link>
+          <Link to="about" className="nav-link-tag">
+            About
+          </Link>
+          <Link to="contact" className="nav-link-tag">
+            Contact
+          </Link>
+          <Link to="resources" className="nav-link-tag">
+            Resources
+          </Link>
+          <Link to="login" className="nav-link-tag">
+            Login
+          </Link>
+          <Link to="signUp" className="nav-link-tag">
+            SignUp
+          </Link>
+>>>>>>> 3e800102807614675ce86f22cb66a4667605e60d
           <Outlet />
         </div>
       </nav>
