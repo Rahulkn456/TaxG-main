@@ -1,7 +1,8 @@
 import React from "react";
 import "./Footer.css";
 import { Link, Outlet } from "react-router-dom";
-import { FaInstagram, FaWhatsapp, FaFacebook, FaTwitter } from "react-icons/fa";
+// import { FaInstagram, FaWhatsapp, FaFacebook, FaTwitter } from "react-icons/fa";
+import SocialMedia from "../SocialMedia/socialMedia";
 const footer = () => {
   return (
     <div className="footer-container">
@@ -32,14 +33,8 @@ const footer = () => {
       </div>
       <div class="footer1">
         <h3>Follow us</h3>
-
-        <FaInstagram />
-
-        <FaWhatsapp />
-
-        <FaFacebook />
-
-        <FaTwitter />
+        <SocialMedia/>
+        
       </div>
     </div>
   );

@@ -1,10 +1,10 @@
 import React from "react";
-/*import Client from "../../pages/client/Client";
+import Client from "../../pages/client/Client";
 import Contact from "../../pages/contact/Contact";
-import Resources from "../../pages/resources/resources";*/
 import Clock from "../Clock/Clock";
 import { Link, Outlet } from "react-router-dom";
 import "./Header.css";
+import Reference from "../../pages/reference/reference";
 
 const Header = () => {
   return (
@@ -38,7 +38,7 @@ const Header = () => {
           <Link to="client">Client</Link>
           <Link to="about">About</Link>
           <Link to="contact">Contact</Link>
-          <Link to="resources">Resources</Link>
+          <Link to="reference">Reference</Link>
           <Link to="login">Login</Link>
           <Link to="signUp">SignUp</Link>
           <Outlet />

@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "./pages/home/Home";
 import Contact from "./components/contact/contact";
-import Resources from "./pages/resources/resources";
+import Reference from "./pages/reference/reference";
 import Client from "./pages/client/Client";
 import Login from "../src/pages/Login/Login";
 import SignUp from "./pages/SignUp/SignUp";
@@ -23,7 +23,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/client" element={<Client />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/resources" element={<Resources />} />
+          <Route path="/reference" element={<Reference />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signUp" element={<SignUp />} />
           <Route path="/notice" element={<Notice />} />
