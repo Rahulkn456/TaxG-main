@@ -1,0 +1,10 @@
+a-tag {
+    font-size: 16px;
+    color: white;
+  }
+  .social-media{
+    padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+  }

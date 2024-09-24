@@ -1,15 +1,21 @@
+.tablestyle{
+  .about-container {
+    padding: 10px;
+    margin: 15px;
+    
+  }
+  
+}
 table {
-    border: 2px solid black;
-    
-    
+  border: 2px solid black;
+  background-color: aqua;
+  margin: 30px;
 }
- 
+
 th {
-    border: 2px solid black;
-    
+  border: 2px solid black;
 }
- 
+
 td {
-    border: 2px solid black;
-    
+  border: 2px solid black;
 }

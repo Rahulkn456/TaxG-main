@@ -5,9 +5,9 @@ import "./Client.css";
 
 const Client = () => {
   return (
-    <div>
+    <div className="table-style">
       <Header/>
-      <h2>client deatils Table</h2>
+      <h2>Client deatils Table</h2>
       
 <table className="table">
   <tr className="column">
@@ -41,6 +41,7 @@ const Client = () => {
     <td>1234567891</td>
   </tr>
 </table>
+
    <Footer/>
     </div>
   );
