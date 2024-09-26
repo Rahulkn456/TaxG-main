@@ -1,4 +1,5 @@
 import React from "react";
+import "./Mission.css"
 
 const Mission = () => {
   return (
@@ -11,6 +12,13 @@ const Mission = () => {
         positions. We strive to build long-lasting relationships based on trust,
         integrity, and exceptional service.
       </p>
+      <p className="mission-para">
+      Our team is equipped with in-depth knowledge and experience in various
+          tax matters. Personalized Service: We understand that each client’s
+          needs are unique, and we tailor our services accordingly. Transparent
+          Communication: We prioritize clear and open communication to ensure
+          you understand your tax situation.
+          </p>
     </div>
   );
 };
