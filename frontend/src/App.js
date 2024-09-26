@@ -14,7 +14,6 @@ import Feedback from "./components/Feedback/Feedback";
 import Service from "./components/Service/Service";
 import GstCalculator from "./components/GstCalculater/GstCalculator";
 
-
 function App() {
   return (
     <div className="App">
@@ -32,8 +31,6 @@ function App() {
           <Route path="/feedback" element={<Feedback />} />
           <Route path="/service" element={<Service />} />
           <Route path="/gstCalculator" element={<GstCalculator />} />
-
-
         </Routes>
       </BrowserRouter>
     </div>
