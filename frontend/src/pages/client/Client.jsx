@@ -5,12 +5,14 @@ import "./Client.css";
 
 const Client = () => {
   return (
-    <div className="table-style">
+    <div>
       <Header/>
+    <div className="table-style">
+      
       <h2>Client deatils Table</h2>
       
-<table className="table">
-  <tr className="column">
+<table>
+  <tr>
     <th>Clinet Name</th>
     <th>Email id</th>
     <th>Address</th>
@@ -41,8 +43,8 @@ const Client = () => {
     <td>1234567891</td>
   </tr>
 </table>
-
-   <Footer/>
+    </div>
+    <Footer/>
     </div>
   );
 };

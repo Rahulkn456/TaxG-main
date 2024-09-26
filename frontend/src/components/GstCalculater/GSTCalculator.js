@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './GSTCalculator.css';
+import './GstCalculator.css';
 
-const GSTCalculator = () => {
+const GstCalculator = () => {
   const [amount, setAmount] = useState('');
   const [gstRate, setGstRate] = useState('');
   const [total, setTotal] = useState(null);
@@ -43,4 +43,4 @@ const GSTCalculator = () => {
   );
 };
 
-export default GSTCalculator;
+export default GstCalculator;

@@ -1,10 +1,7 @@
 import React from "react";
-import Client from "../../pages/client/Client";
-import Contact from "../../pages/contact/Contact";
 import Clock from "../Clock/Clock";
 import { Link, Outlet } from "react-router-dom";
 import "./Header.css";
-import Reference from "../../pages/reference/reference";
 
 const Header = () => {
   return (
@@ -34,7 +31,7 @@ const Header = () => {
       <nav className="navbar">
         <div className="navdiv">
           <Clock />
-          
+        
           <Link to="home" className="nav-link-tag">
             Home
           </Link>
@@ -47,8 +44,8 @@ const Header = () => {
           <Link to="contact" className="nav-link-tag">
             Contact
           </Link>
-          <Link to="resources" className="nav-link-tag">
-            Resources
+          <Link to="reference" className="nav-link-tag">
+            Reference
           </Link>
           <Link to="login" className="nav-link-tag">
             Login

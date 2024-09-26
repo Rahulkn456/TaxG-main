@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Service.css";
+import {Link,Outlet} from 'react-router-dom';
 
 const Service=()=>{
     return(
@@ -27,7 +28,9 @@ const Service=()=>{
         <p className='card-description'>
         Determining how an individual's assets will be preserved, managed, and 
         distributed after death</p>
-        <a href='card page' className='card-btn'>Learn More</a>
+    
+        <Link to="gstCalulator" className="card-btn"> Calculate </Link>
+        <Outlet/>
         </div>
 
         <div className="card-container">

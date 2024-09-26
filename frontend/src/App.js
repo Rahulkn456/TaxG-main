@@ -12,6 +12,8 @@ import "./App.css";
 import NotFound from "./pages/notFound/NotFound";
 import Feedback from "./components/Feedback/Feedback";
 import Service from "./components/Service/Service";
+import GstCalculator from "./components/GstCalculater/GstCalculator";
+
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
           <Route path="/notice" element={<Notice />} />
           <Route path="/feedback" element={<Feedback />} />
           <Route path="/service" element={<Service />} />
+          <Route path="/gstCalculator" element={<GstCalculator />} />
+
 
         </Routes>
       </BrowserRouter>
