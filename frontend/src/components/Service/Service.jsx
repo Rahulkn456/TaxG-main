@@ -1,9 +1,13 @@
 import React from 'react'
 import "./Service.css";
 import {Link,Outlet} from 'react-router-dom';
+import Header from '../header/Header';
+import Footer from '../footer/footer';
 
 const Service=()=>{
     return(
+        <div>
+            <Header/>
         <div className='service'>
         <div className="card-container">
         
@@ -50,6 +54,8 @@ const Service=()=>{
         <a href='card page' className='card-btn'>Learn More</a>
         </div>
 
+        </div>
+        <Footer/>
         </div>
         
     )
